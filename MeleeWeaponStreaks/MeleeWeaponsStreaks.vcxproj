@@ -94,6 +94,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MeleeWeaponsStreaks.cpp" />
+	 <ClInclude Include="ini_parser.hpp" />
+	 <ClInclude Include="IniReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
